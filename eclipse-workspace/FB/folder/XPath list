@@ -1,0 +1,28 @@
+relative XPath for facebook.com signup, login and forgot account link.
+
+Signup Part
+
+FirstName		XPath with Tag name--> //input[@name='firstname'] or XPath using contains --->  //*[contains (@name, 'firstname')]
+LastName		//*[contains (@name, 'lastname')]
+EmailID			//*[contains (@name, 'reg_email__')]
+ReEmailID		//*[contains (@name, 'reg_email_confirmation__')]
+NewPassword		//*[contains (@name, 'reg_passwd__')]
+
+dropdown pick  |
+--------------- 
+BirthdayMonth 	--> //*[contains (@name, 'birthday_month')]
+BirthdayDate --->  //*[contains (@name, 'birthday_day')]
+BirthdayYear --- >//*[contains (@name,'birthday_year')]
+
+Gender ==> Male ---> //*[contains (@id, 'u_0_a')]
+
+Sign up Button Click ----> //*[contains(@id,'u_0_6')]
+
+Login Part
+
+loginID
+LoginPassword
+LoginButton
+
+
+
